@@ -3,6 +3,8 @@
     "version": "0.2.0",
     "configurations": [
 
+
+
         {
             "name": "Sandbox Project",
             "type": "coreclr",
@@ -76,6 +78,19 @@
             "program": "${workspaceFolder}/week01/Exercise5/bin/Debug/net8.0/Exercise5.dll",
             "args": [],
             "cwd": "${workspaceFolder}/week01/Exercise5",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "Week 01: C# Nutrition",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-week01-Nutrition",
+            "program": "${workspaceFolder}/week01/Nutrition/bin/Debug/net8.0/Nutrition.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week01/Nutrition",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false

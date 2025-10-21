@@ -82,6 +82,20 @@
         },
 
         {
+            "label": "build-week01-Nutrition",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/week01/Nutrition/Nutrition.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+   
+
+        {
             "label": "build-week02-Resumes",
             "command": "dotnet",
             "type": "process",
