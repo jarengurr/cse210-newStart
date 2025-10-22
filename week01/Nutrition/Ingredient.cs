@@ -1,4 +1,4 @@
-public class Ingreadent : Food
+public class Ingredient : Food
 {
     double _amount;
     double _volume;
